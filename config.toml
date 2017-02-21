@@ -1,0 +1,58 @@
+baseurl = "/"
+title = "founder fabric"
+languageCode = "en-nz"
+publishDir = "docs"
+
+theme = "foundation-theme"
+enableRobotsTXT = true
+SectionPagesMenu = ["main", "social"]
+
+[params.meta]
+description = "your founder meta community"
+keywords = "founder, entrepreneur, mentor"
+
+[params.hero]
+herotitle = "Welcome to founder fabric"
+herodiscription = "this is your founder centric community that will sopport you all the way"
+btnblue = "Learn More"
+btngreen = "Send Us a Message"
+
+[params.main]
+contentOneTitle = "Our values"
+contentTwoTitle = "Who we support"
+
+contentOneBody = "We are an open, transparent and inclusive group of people that work for you to make sure you have the savest path from idea to business"
+
+contentTwoBody = "We work with communities that want to engage more with their talent and support founders in their regions"
+
+[params.footer]
+email = "we@founderfabric.org"
+
+[[menu.main]]
+name = "About"
+url = "/about"
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+
+[[menu.main]]
+name = "Services"
+url = "/services"
+
+[[menu.social]]
+name = "Facebook"
+url = "http://facebook.com"
+
+[[menu.social]]
+name = "Twitter"
+url = "http://twitter.com"
+
+[[menu.social]]
+name = "Instagram"
+url = "http://instagram.com"
+
+[[menu.social]]
+name = "Github"
+url = "http://github.com/founderfabric"
+
