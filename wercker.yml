@@ -10,4 +10,4 @@ build:
     - arjen/hugo-build:
         version: "0.18"
         theme: foundation-theme
-        flags: --buildDrafts=true
+        flags: --buildDrafts=true --config=./config.toml
