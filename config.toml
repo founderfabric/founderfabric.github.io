@@ -1,7 +1,7 @@
 baseurl = "/"
 title = "founder fabric"
 languageCode = "en-nz"
-publishDir = "docs"
+publishDir = "public"
 
 theme = "foundation-theme"
 enableRobotsTXT = true
