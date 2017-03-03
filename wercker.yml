@@ -7,7 +7,7 @@ build:
         name: download theme
         code: |
             $(git clone https://github.com/hdcdstr8fwd/foundation-theme ./themes/foundation-theme)
-    - arjen/hugo-build:
-        version: "0.18"
-        theme: foundation-theme
-        flags: --buildDrafts=true --config=./config.toml
+    - script:
+        name: build site
+        code: |
+            $(hugo)
