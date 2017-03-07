@@ -49,10 +49,6 @@ name = "Twitter"
 url = "http://twitter.com"
 
 [[menu.social]]
-name = "Instagram"
-url = "http://instagram.com"
-
-[[menu.social]]
 name = "Github"
 url = "http://github.com/founderfabric"
 
